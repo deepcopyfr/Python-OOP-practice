@@ -1,7 +1,7 @@
 from typing import Union
 
 from string import ascii_letters
-from House import House
+from house import House
 
 
 class Human:

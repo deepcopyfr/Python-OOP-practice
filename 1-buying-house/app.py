@@ -1,5 +1,5 @@
-from Human import Human
-from House import House, SmallHouse
+from human import Human
+from house import House, SmallHouse
 
 
 def main():
