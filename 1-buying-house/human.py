@@ -66,7 +66,7 @@ class Human:
 
         for letter in name:
             if letter not in ascii_letters:
-                raise TypeError(f"Имя должно состоять из букв латинского алфавита")
+                raise TypeError("Имя должно состоять из букв латинского алфавита")
 
     @staticmethod
     def __verify_age(age: int) -> None:
